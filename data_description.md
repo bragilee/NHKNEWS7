@@ -21,3 +21,10 @@
 	nhknews dataset.
 	it contains 111 categories.
 	images are extracted according to shot ID with number with track. (stop at shotXX_YYY_TrackZ)
+	
+	
+**In each directory**
+
+* The "raw" folder in each kind of dataset contains raw images.
+* The "pairs.txt" file in each kind of dataset is for accuracy evaluation.
+* The "nhknews_XXX_vgg_labels.csv" is for acuracy evaluation of VGG feature, specifically is used with "representation" file. 
